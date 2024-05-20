@@ -4,14 +4,17 @@ export default {
   theme: {
     extend: {
       colors:{
-        "majorblue" : "#66798"
+        "primary" : "#001225",
+        "secondary" : "#0A3C70",
+        "tracker": "#E6FFFF"
       },
-      fontSize:{
+        fontSize:{
         "dd": ".5rem",
         "md": "1rem"
       },
       fontFamily:{
-        montserrat:[ "Montserrat", "sans-serif"],
+        Reddit:[ "Reddit Sans Condensed", "sans-serif"],
+        Teachers:[ "Teachers", "sans-serif"],
       }
     },
   },
