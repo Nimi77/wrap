@@ -6,11 +6,15 @@ export default {
       colors:{
         "primary" : "#001225",
         "secondary" : "#0A3C70",
-        "tracker": "#E6FFFF"
+        "tracker": "#E6FFFF",
+        "active":" #B8B8B8",
+        "greenn":"#09A32B",
+        "red": "#DF0000",
       },
         fontSize:{
-        "dd": ".5rem",
-        "md": "1rem"
+        "xxs":"8px",
+        "dd": "12px",
+        "md": "16px"
       },
       fontFamily:{
         Reddit:[ "Reddit Sans Condensed", "sans-serif"],
