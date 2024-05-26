@@ -13,7 +13,7 @@ export default {
       },
         fontSize:{
         "xxs":"8px",
-        "dd": "12px",
+        "dd": "13px",
         "md": "16px"
       },
       fontFamily:{
