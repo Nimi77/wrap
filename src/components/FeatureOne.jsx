@@ -2,14 +2,14 @@ import { Image, Text, Box, ListItem, Heading, List } from "@chakra-ui/react";
 
 function FeatureOne() {
   return (
-    <Box className="wr-3 w-full ">
-      <Box className="flex justify-center mx-auto bg-w3 pt-4 h-w3 ">
-        <Heading className="text-5xl text-center font-Reddit text-primary font-bold line-h w-571">
+    <Box className="w-full my-28">
+      <Box className="flex items-center justify-center mx-auto bg-w3 pt-6 h-331">
+        <Heading className="text-4xl text-primary font-bold w-571 pt-6 lg:text-5xl">
           Get Your Life Back in Order with <span className="g-text">Wrap</span>
         </Heading>
       </Box>
-      <Box className="w3-card-container flex justify-center gap-8 items-center font-Reddit mx-auto maxW-80 -translate-x-68">
-        <Box className="w3-card-1 w3-card py-3 px-7 flex flex-col items-center justify-center gradient-border1  bg-white card-shadow transform ">
+      <Box className="f1-card-container font-Reddit grid grid-cols-1 gap-8 mx-auto mt-8 lg:mt-0 sm:grid-cols-2 lg:translate-y-16 lg:grid-cols-3">
+        <Box className="f1-card-1 f1-card py-3 px-7 flex flex-col items-center justify-center gradient-border bg-white card-shadow transform">
           <Heading className="font-bold text-md w-172 text-secondary text-center">
             Add your colleagues to your projects
           </Heading>
@@ -24,7 +24,7 @@ function FeatureOne() {
             </Box>
           </Box>
         </Box>
-        <Box className="w3-card-2 w3-card pt-3 gradient-border2 bg-white card-shadow flex flex-col items-center">
+        <Box className="f1-card-2 f1-card pt-3 gradient-border2 bg-white card-shadow flex flex-col items-center">
           <Heading className="font-bold text-md w-172 text-secondary text-center mt-10">
             Get more work done
           </Heading>
@@ -46,7 +46,7 @@ function FeatureOne() {
               />
             </Box>
           </Box>
-          <Box className="flex flex-col gap-3 items-center justify-center ">
+          <Box className="flex flex-col gap-3 items-center justify-center">
             {/* task card one */}
             <Box className="task-card">
               <Box className="flex items-center justify-between ">
@@ -150,7 +150,7 @@ function FeatureOne() {
             </Box>
           </Box>
         </Box>
-        <Box className="w3-card-3 w3-card flex flex-col items-center justify-center py-3 px-7 gradient-border1 bg-white card-shadow">
+        <Box className="f1-card-3 f1-card flex flex-col items-center justify-center py-3 px-7 gradient-border1 bg-white card-shadow">
           <Heading className="font-bold text-md w-[166px] text-secondary text-center pb-2">
             Manage your projects too
           </Heading>

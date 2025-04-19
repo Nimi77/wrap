@@ -1,27 +1,22 @@
-:root {
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  font-family: "Inter", sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-  margin: 0;
-  min-width: 320px;
+  font-family: "Teachers", sans-serif;
   background-color: rgba(250, 252, 255, 0.8);
-  
 }
 a:hover {
-  color: #0A3C70;
+  color: #0a3c70;
   font-weight: bold;
   transition: 1s ease-out;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} 
-
-
-
+}
+h1,
+h2,
+h3 {
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
