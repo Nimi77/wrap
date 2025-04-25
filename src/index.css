@@ -17,6 +17,7 @@ button:focus-visible {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Reddit Sans Condensed", sans-serif;
 }

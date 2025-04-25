@@ -2,10 +2,13 @@ import { Image, Text, Box, Button, Heading } from "@chakra-ui/react";
 
 function Hero() {
   return (
-    <Box className="mx-auto max-w-80 pt-6 pb-10 mb-16 grid grid-cols-1">
+    <Box className="mx-auto max-w-80 pt-6 pb-10 grid grid-cols-1">
       {/* heading */}
       <Box className="text-center flex flex-col items-center gap-2">
-        <Heading className="text-3xl text-primary font-bold w-500 lg:text-4xl">
+        <Heading
+          as="h1"
+          className="text-3xl text-primary font-bold w-500 lg:text-4xl"
+        >
           Get Your Life Back in Order with <span className="g-text">Wrap</span>
         </Heading>
         <Text className="text-lg text-secondary max-w-[700px]">
@@ -45,7 +48,7 @@ function Hero() {
         </Box>
         <Box className="relative z-10 hero-img">
           <Image
-            src="../mobile-screen1.png"
+            src="../hero-img.png"
             width={400}
             height={700}
             className="relative z-10"
@@ -75,7 +78,7 @@ function Hero() {
         </Box>
       </Box>
       <Box className="flex items-center justify-center mt-6 lg:-mt-8">
-        <Button className="gradient-btn">Get the APP</Button>
+        <Button className="CTA-btn">Get the APP</Button>
       </Box>
     </Box>
   );

@@ -24,7 +24,7 @@ function Header() {
         className="bg-transparent justify-between py-2 px-2 mx-auto max-w-5xl max-h-[70px] shadow-sm overflow-hidden rounded-full sm:px-7"
       >
         <Box className="flex  mb-2">
-          <Image width={128} src="../wrap-icon.png"></Image>
+          <Image width={128} src="../icon.png"></Image>
         </Box>
         {/* Nav links */}
         <UnorderedList
@@ -54,7 +54,7 @@ function Header() {
           ))}
         </UnorderedList>
         <Box display="flex" alignItems="center" justifyContent="center">
-          <Button className="gradient-btn">Get the APP</Button>
+          <Button className="CTA-btn">Get the APP</Button>
         </Box>
       </Flex>
     </Box>

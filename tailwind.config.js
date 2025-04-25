@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#001225",
         secondary: "#0A3C70",
+        light: "#E8F3FE",
         tracker: "#E6FFFF",
         active: " #B8B8B8",
         greenn: "#09A32B",
@@ -13,7 +14,6 @@ export default {
       },
       fontSize: {
         xxs: "8px",
-        xs13: "13px",
         md: "16px",
       },
       fontFamily: {
